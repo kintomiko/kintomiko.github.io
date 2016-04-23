@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Migrate django app from mysql to postgresql"
+date:   2016-04-23 00:34:12 +0800
+categories: jekyll update
+---
+
 Today my poor 512M ram digitalocean is running full with hubot and mysql. I hate mysql for so much memory consuming and move to postgresql. Django provide very good abstraction to seperate different layer so that db migration happen so easy. I just wanna try sqllite if postgresql still use too much memory.
 
 
