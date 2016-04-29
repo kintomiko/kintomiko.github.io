@@ -24,6 +24,7 @@ task :new do
 			file.puts "title: #{@name}"
 			file.puts "date: #{Time.now}"
 			file.puts "categories: #{@categories}"
+			file.puts "published: true"
 			file.puts "---"
 	end
 	exec "vi #{@post_name}"
